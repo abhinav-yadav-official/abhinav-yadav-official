@@ -3,10 +3,10 @@
 <h1 align="center">Abhinav Yadav</h1>
 
 <p align="center">
-  <a href="https://abhiyadav.in">Portfolio</a> ·
-  <a href="https://abhiyadav.in/resume">Resume</a> ·
-  <a href="https://abhiyadav.in/linkedin">LinkedIn</a> ·
-  <a href="https://github.com/abhinav-yadav-official">GitHub</a>
+  <a href="https://abhiyadav.in"><img src="https://img.shields.io/badge/Portfolio-abhiyadav.in-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=38bdf8" alt="Portfolio" /></a>
+  <a href="https://abhiyadav.in/resume"><img src="https://img.shields.io/badge/Resume-PDF-111827?style=for-the-badge&logo=readme&logoColor=facc15" alt="Resume" /></a>
+  <a href="https://www.linkedin.com/in/abhiyd"><img src="https://img.shields.io/badge/LinkedIn-Abhinav_Yadav-111827?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn" /></a>
+  <a href="https://github.com/abhinav-yadav-official"><img src="https://img.shields.io/badge/GitHub-abhinav--yadav--official-111827?style=for-the-badge&logo=github&logoColor=f8fafc" alt="GitHub" /></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,8 @@ I build production-minded tools with clear user workflows, boring deployment pat
 
 <table>
   <tr>
-    <td><b>Kleos</b><br />Go, PostgreSQL, SMTP, Docker<br />Privacy-first job outreach from your own email sender.<br /><a href="https://github.com/abhinav-yadav-official/Kleos">Repo</a> · <a href="https://abhiyadav.in/kleos/">Live</a></td>
-    <td><b>Ichnos</b><br />Go, Redis, OpenSearch, htmx<br />Domain-specific web crawler and search engine.<br /><a href="https://github.com/abhinav-yadav-official/Ichnos">Repo</a> · <a href="https://abhiyadav.in/ichnos/">Live</a></td>
+    <td><b>Kleos</b><br />Go, PostgreSQL, SMTP, Docker<br />Privacy-first job outreach from your own email sender.<br /><a href="https://github.com/abhinav-yadav-official/Kleos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
+    <td><b>Ichnos</b><br />Go, Redis, OpenSearch, htmx<br />Domain-specific web crawler and search engine.<br /><a href="https://github.com/abhinav-yadav-official/Ichnos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
   </tr>
   <tr>
     <td><b>LeetDrill</b><br />Self-hosted web app<br />LeetCode practice tracker for drilling consistently.<br /><a href="https://github.com/abhinav-yadav-official/LeetDrill">Repo</a> · <a href="https://abhiyadav.in/leetdrill/">Live</a></td>
@@ -49,13 +49,13 @@ I build production-minded tools with clear user workflows, boring deployment pat
 ## Toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/Go-111827?style=for-the-badge&logo=go&logoColor=38bdf8" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=facc15" alt="Python" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=60a5fa" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=f87171" alt="Redis" />
-  <img src="https://img.shields.io/badge/OpenSearch-111827?style=for-the-badge&logo=opensearch&logoColor=38bdf8" alt="OpenSearch" />
-  <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=60a5fa" alt="Docker" />
-  <img src="https://img.shields.io/badge/Three.js-111827?style=for-the-badge&logo=threedotjs&logoColor=f8fafc" alt="Three.js" />
+  <a href="https://go.dev/doc/"><img src="https://img.shields.io/badge/Go-111827?style=for-the-badge&logo=go&logoColor=38bdf8" alt="Go docs" /></a>
+  <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=facc15" alt="Python docs" /></a>
+  <a href="https://www.postgresql.org/docs/"><img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=60a5fa" alt="PostgreSQL docs" /></a>
+  <a href="https://redis.io/docs/latest/"><img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=f87171" alt="Redis docs" /></a>
+  <a href="https://opensearch.org/docs/latest/"><img src="https://img.shields.io/badge/OpenSearch-111827?style=for-the-badge&logo=opensearch&logoColor=38bdf8" alt="OpenSearch docs" /></a>
+  <a href="https://docs.docker.com/"><img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=60a5fa" alt="Docker docs" /></a>
+  <a href="https://threejs.org/docs/"><img src="https://img.shields.io/badge/Three.js-111827?style=for-the-badge&logo=threedotjs&logoColor=f8fafc" alt="Three.js docs" /></a>
 </p>
 
 ## Operating Style
@@ -71,15 +71,10 @@ I build production-minded tools with clear user workflows, boring deployment pat
   </tr>
 </table>
 
-## Activity
-
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=abhinav-yadav-official&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinav-yadav-official&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
-
 ## Links
 
-- Portfolio: [abhiyadav.in](https://abhiyadav.in)
-- Resume: [abhiyadav.in/resume](https://abhiyadav.in/resume)
-- LinkedIn: [abhiyadav.in/linkedin](https://abhiyadav.in/linkedin)
+<p>
+  <a href="https://abhiyadav.in"><img src="https://img.shields.io/badge/Portfolio-abhiyadav.in-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=38bdf8" alt="Portfolio" /></a>
+  <a href="https://abhiyadav.in/resume"><img src="https://img.shields.io/badge/Resume-PDF-111827?style=for-the-badge&logo=readme&logoColor=facc15" alt="Resume" /></a>
+  <a href="https://www.linkedin.com/in/abhiyd"><img src="https://img.shields.io/badge/LinkedIn-Abhinav_Yadav-111827?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn" /></a>
+</p>
