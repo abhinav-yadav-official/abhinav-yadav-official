@@ -1,36 +1,41 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Retro developer terminal with 8-bit character</title>
-  <desc id="desc">Animated pixel character beside a terminal showing projects and links.</desc>
+  <desc id="desc">Animated terminal, pixel character, chat bubbles, and 3D cube laid out without overlap.</desc>
   <style>
-    .mono { font: 600 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #d1fae5; }
-    .small { font: 600 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #94a3b8; }
-    .tiny { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #67e8f9; }
-    .headline { font: 800 48px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #f8fafc; letter-spacing: 0; }
-    .subhead { font: 600 20px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #cbd5e1; }
+    .mono { font: 700 21px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #d1fae5; }
+    .small { font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #94a3b8; }
+    .tiny { font: 700 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #67e8f9; }
+    .chat { font: 800 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #d1fae5; }
+    .headline { font: 800 46px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #f8fafc; letter-spacing: 0; }
+    .subhead { font: 650 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #cbd5e1; }
     .scanline { animation: scan 4.5s linear infinite; }
     .float { animation: float 3.4s ease-in-out infinite; }
     .blink { animation: blink 1.1s steps(2, start) infinite; }
-    .walk { animation: walk 1.2s steps(2, start) infinite; transform-origin: 210px 292px; }
+    .walk { animation: walk 1.2s steps(2, start) infinite; transform-origin: 700px 308px; }
+    .bubble { animation: bubble 3.6s ease-in-out infinite; }
+    .bubble.alt { animation-delay: .7s; }
     .stars circle { animation: twinkle 2.8s ease-in-out infinite; }
     .stars circle:nth-child(2n) { animation-delay: .7s; }
     .stars circle:nth-child(3n) { animation-delay: 1.4s; }
-    .cube { animation: spin 7s ease-in-out infinite alternate; transform-origin: 938px 184px; }
+    .cube { animation: spin 7s ease-in-out infinite alternate; transform-origin: 965px 230px; }
     .dash { stroke-dasharray: 10 16; animation: dash 14s linear infinite; }
     @keyframes scan {
       from { transform: translateY(-120px); opacity: .05; }
-      40% { opacity: .24; }
+      40% { opacity: .22; }
       to { transform: translateY(440px); opacity: .05; }
     }
     @keyframes float {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
+      50% { transform: translateY(-8px); }
     }
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
+    @keyframes blink { 50% { opacity: 0; } }
     @keyframes walk {
       0%, 100% { transform: rotate(-1deg); }
       50% { transform: rotate(1deg); }
+    }
+    @keyframes bubble {
+      0%, 100% { transform: translateY(0); opacity: .82; }
+      50% { transform: translateY(-6px); opacity: 1; }
     }
     @keyframes twinkle {
       0%, 100% { opacity: .32; transform: scale(1); }
@@ -38,11 +43,9 @@
     }
     @keyframes spin {
       from { transform: rotate(-4deg) translateY(0); }
-      to { transform: rotate(5deg) translateY(-12px); }
+      to { transform: rotate(5deg) translateY(-10px); }
     }
-    @keyframes dash {
-      to { stroke-dashoffset: -260; }
-    }
+    @keyframes dash { to { stroke-dashoffset: -260; } }
   </style>
   <defs>
     <linearGradient id="bg" x1="56" y1="16" x2="1146" y2="407" gradientUnits="userSpaceOnUse">
@@ -50,11 +53,11 @@
       <stop offset=".48" stop-color="#111827"/>
       <stop offset="1" stop-color="#1e1b4b"/>
     </linearGradient>
-    <linearGradient id="panel" x1="74" y1="72" x2="766" y2="348" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="74" y1="72" x2="645" y2="348" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0f172a"/>
       <stop offset="1" stop-color="#020617"/>
     </linearGradient>
-    <linearGradient id="accent" x1="192" y1="70" x2="1068" y2="366" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="160" y1="70" x2="1068" y2="366" gradientUnits="userSpaceOnUse">
       <stop stop-color="#14b8a6"/>
       <stop offset=".5" stop-color="#38bdf8"/>
       <stop offset="1" stop-color="#a78bfa"/>
@@ -66,6 +69,7 @@
   </defs>
   <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
   <rect width="1200" height="420" rx="30" fill="url(#halo)"/>
+  <rect x="12" y="12" width="1176" height="396" rx="24" stroke="#334155" stroke-opacity=".55"/>
   <g class="stars">
     <circle cx="93" cy="54" r="2" fill="#e0f2fe"/>
     <circle cx="162" cy="358" r="2" fill="#e0f2fe"/>
@@ -75,40 +79,54 @@
     <circle cx="1130" cy="331" r="2" fill="#e0e7ff"/>
     <circle cx="835" cy="354" r="2.5" fill="#e0f2fe"/>
   </g>
-  <path class="dash" d="M101 340C291 238 378 282 535 179C693 76 824 103 1039 279" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity=".68"/>
-  <rect x="70" y="72" width="650" height="284" rx="18" fill="url(#panel)" stroke="#334155"/>
-  <rect x="70" y="72" width="650" height="42" rx="18" fill="#111827"/>
+  <path class="dash" d="M101 340C287 238 379 282 535 179C693 76 824 103 1039 279" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity=".68"/>
+
+  <rect x="70" y="72" width="560" height="284" rx="18" fill="url(#panel)" stroke="#334155"/>
+  <rect x="70" y="72" width="560" height="42" rx="18" fill="#111827"/>
   <circle cx="99" cy="93" r="7" fill="#fb7185"/>
   <circle cx="124" cy="93" r="7" fill="#facc15"/>
   <circle cx="149" cy="93" r="7" fill="#34d399"/>
   <text class="small" x="180" y="99">~/abhiyadav.in/profile</text>
-  <text class="mono" x="102" y="157">$ whoami</text>
+  <text class="mono" x="102" y="155">$ whoami</text>
   <text class="mono" x="102" y="194">Abhinav Yadav</text>
-  <text class="mono" x="102" y="235">$ focus --current</text>
-  <text class="mono" x="102" y="272">search systems · outreach tools · AI dev workflows</text>
+  <text class="mono" x="102" y="234">$ focus --now</text>
+  <text class="mono" x="102" y="273">search · outreach · AI workflows</text>
   <text class="mono" x="102" y="313">$ open resume</text>
   <rect class="blink" x="289" y="292" width="14" height="25" fill="#67e8f9"/>
-  <g class="float">
-    <text class="headline" x="770" y="104">builder mode</text>
-    <text class="subhead" x="774" y="139">production-minded tools with polished public surfaces</text>
+
+  <g class="bubble alt">
+    <rect x="492" y="214" width="138" height="38" rx="10" fill="#0f172a" stroke="#14b8a6" stroke-width="2"/>
+    <path d="M626 241L650 253L637 234" fill="#0f172a" stroke="#14b8a6" stroke-width="2"/>
+    <text class="chat" x="510" y="239">keep clear</text>
   </g>
-  <g class="cube">
-    <path d="M940 111L1025 158V255L940 304L854 255V158L940 111Z" fill="#0f172a" stroke="#67e8f9" stroke-width="4"/>
-    <path d="M940 111V207M854 158L940 207L1025 158M940 207V304" stroke="#a78bfa" stroke-width="4"/>
-    <path d="M891 187L940 158L990 187V243L940 273L891 243V187Z" fill="#111827" stroke="#14b8a6" stroke-width="3" opacity=".95"/>
+  <g class="bubble">
+    <rect x="724" y="214" width="126" height="38" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <path d="M728 241L704 253L717 234" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+    <text class="chat" x="743" y="239">ship small</text>
   </g>
   <g class="walk">
-    <rect x="184" y="238" width="52" height="52" fill="#38bdf8"/>
-    <rect x="172" y="250" width="12" height="40" fill="#38bdf8"/>
-    <rect x="236" y="250" width="12" height="40" fill="#38bdf8"/>
-    <rect x="196" y="250" width="10" height="10" fill="#020617"/>
-    <rect x="216" y="250" width="10" height="10" fill="#020617"/>
-    <rect x="198" y="276" width="28" height="8" fill="#020617"/>
-    <rect x="194" y="290" width="12" height="36" fill="#a78bfa"/>
-    <rect x="216" y="290" width="12" height="36" fill="#a78bfa"/>
-    <rect x="178" y="326" width="28" height="10" fill="#14b8a6"/>
-    <rect x="216" y="326" width="28" height="10" fill="#14b8a6"/>
+    <rect x="674" y="260" width="52" height="52" fill="#38bdf8"/>
+    <rect x="662" y="272" width="12" height="40" fill="#38bdf8"/>
+    <rect x="726" y="272" width="12" height="40" fill="#38bdf8"/>
+    <rect x="686" y="272" width="10" height="10" fill="#020617"/>
+    <rect x="706" y="272" width="10" height="10" fill="#020617"/>
+    <rect x="688" y="298" width="28" height="8" fill="#020617"/>
+    <rect x="684" y="312" width="12" height="36" fill="#a78bfa"/>
+    <rect x="706" y="312" width="12" height="36" fill="#a78bfa"/>
+    <rect x="668" y="348" width="28" height="10" fill="#14b8a6"/>
+    <rect x="706" y="348" width="28" height="10" fill="#14b8a6"/>
   </g>
-  <text class="tiny" x="792" y="346">8-bit shell · animated SVG · profile README</text>
+
+  <g class="float">
+    <text class="headline" x="790" y="100">builder mode</text>
+    <text class="subhead" x="794" y="134">tools that ship</text>
+    <text class="subhead" x="794" y="160">clean public surfaces</text>
+  </g>
+  <g class="cube">
+    <path d="M965 178L1035 218V296L965 338L895 296V218L965 178Z" fill="#0f172a" stroke="#67e8f9" stroke-width="4"/>
+    <path d="M965 178V256M895 218L965 256L1035 218M965 256V338" stroke="#a78bfa" stroke-width="4"/>
+    <path d="M922 240L965 215L1008 240V287L965 313L922 287V240Z" fill="#111827" stroke="#14b8a6" stroke-width="3" opacity=".95"/>
+  </g>
+  <text class="tiny" x="816" y="360">8-bit shell · animated SVG · profile README</text>
   <rect class="scanline" x="0" y="0" width="1200" height="110" fill="#ffffff" opacity=".08"/>
 </svg>

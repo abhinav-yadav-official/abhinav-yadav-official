@@ -17,24 +17,34 @@
 
 I build production-minded tools with clear user workflows, boring deployment paths, and polished public surfaces. My recent projects sit around search infrastructure, recruiter/job outreach, developer productivity, and AI-assisted feedback.
 
-| Area | Recent work |
-|---|---|
-| Search and crawling | Built **Ichnos**, a Go crawler and full-text search stack with Redis frontier, OpenSearch indexing, Prometheus metrics, and an htmx UI. |
-| Product tooling | Built **Kleos**, a privacy-first job outreach SaaS using own-inbox SMTP sending, encrypted credentials, resume upload, and email drafting. |
-| Developer workflows | Built **DevFeedbackAI**, a provider-based CLI that turns Phabricator or git activity into quarterly developer feedback. |
-| Personal platform | Built and maintain **abhiyadav.in**, a static animated portfolio with project pages, SEO metadata, resume routing, and deployment automation. |
+<table>
+  <tr>
+    <td width="50%"><b>▣ Search and crawling</b><br />Built <b>Ichnos</b>, a Go crawler and full-text search stack with Redis frontier, OpenSearch indexing, Prometheus metrics, and an htmx UI.</td>
+    <td width="50%"><b>▣ Product tooling</b><br />Built <b>Kleos</b>, a privacy-first job outreach SaaS using own-inbox SMTP sending, encrypted credentials, resume upload, and email drafting.</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>▣ Developer workflows</b><br />Built <b>DevFeedbackAI</b>, a provider-based CLI that turns Phabricator or git activity into quarterly developer feedback.</td>
+    <td width="50%"><b>▣ Personal platform</b><br />Built and maintain <b>abhiyadav.in</b>, a static animated portfolio with project pages, SEO metadata, resume routing, and deployment automation.</td>
+  </tr>
+</table>
 
 ## Public Projects
 
 ![Arcade project strip](assets/project-arcade.svg)
 
-| Project | Stack | What it is | Links |
-|---|---|---|---|
-| **Kleos** | Go, PostgreSQL, SMTP, Docker | Privacy-first job outreach from your own email sender. | [Repo](https://github.com/abhinav-yadav-official/Kleos) · [Live](https://abhiyadav.in/kleos/) |
-| **Ichnos** | Go, Redis, OpenSearch, htmx | Domain-specific web crawler and search engine. | [Repo](https://github.com/abhinav-yadav-official/Ichnos) · [Live](https://abhiyadav.in/ichnos/) |
-| **LeetDrill** | Self-hosted web app | LeetCode practice tracker for drilling consistently. | [Repo](https://github.com/abhinav-yadav-official/LeetDrill) · [Live](https://abhiyadav.in/leetdrill/) |
-| **DevFeedbackAI** | Python, git, Phabricator, Claude CLI | Quarterly developer feedback from engineering activity. | [Repo](https://github.com/abhinav-yadav-official/DevFeedbackAI) |
-| **Portifolio** | HTML, CSS, JavaScript, Three.js | Animated personal site and resume hub. | [Repo](https://github.com/abhinav-yadav-official/Portifolio) · [Live](https://abhiyadav.in/) |
+<table>
+  <tr>
+    <td><b>Kleos</b><br />Go, PostgreSQL, SMTP, Docker<br />Privacy-first job outreach from your own email sender.<br /><a href="https://github.com/abhinav-yadav-official/Kleos">Repo</a> · <a href="https://abhiyadav.in/kleos/">Live</a></td>
+    <td><b>Ichnos</b><br />Go, Redis, OpenSearch, htmx<br />Domain-specific web crawler and search engine.<br /><a href="https://github.com/abhinav-yadav-official/Ichnos">Repo</a> · <a href="https://abhiyadav.in/ichnos/">Live</a></td>
+  </tr>
+  <tr>
+    <td><b>LeetDrill</b><br />Self-hosted web app<br />LeetCode practice tracker for drilling consistently.<br /><a href="https://github.com/abhinav-yadav-official/LeetDrill">Repo</a> · <a href="https://abhiyadav.in/leetdrill/">Live</a></td>
+    <td><b>DevFeedbackAI</b><br />Python, git, Phabricator, Claude CLI<br />Quarterly developer feedback from engineering activity.<br /><a href="https://github.com/abhinav-yadav-official/DevFeedbackAI">Repo</a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Portifolio</b><br />HTML, CSS, JavaScript, Three.js<br />Animated personal site and resume hub.<br /><a href="https://github.com/abhinav-yadav-official/Portifolio">Repo</a> · <a href="https://abhiyadav.in/">Live</a></td>
+  </tr>
+</table>
 
 ## Toolbox
 
@@ -50,10 +60,16 @@ I build production-minded tools with clear user workflows, boring deployment pat
 
 ## Operating Style
 
-- Ship small, complete tools with a clear runtime contract.
-- Prefer explicit systems over framework-heavy abstractions.
-- Keep public projects usable: docs, screenshots, live URLs, deploy notes, and examples.
-- Use AI where it removes busywork, while keeping the source data and output constraints visible.
+<table>
+  <tr>
+    <td>▸ Ship small, complete tools with a clear runtime contract.</td>
+    <td>▸ Prefer explicit systems over framework-heavy abstractions.</td>
+  </tr>
+  <tr>
+    <td>▸ Keep public projects usable: docs, screenshots, live URLs, deploy notes, and examples.</td>
+    <td>▸ Use AI where it removes busywork, while keeping the source data and output constraints visible.</td>
+  </tr>
+</table>
 
 ## Activity
 
