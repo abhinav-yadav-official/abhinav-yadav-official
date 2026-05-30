@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Abhinav Yadav - focused tools for search, outreach, learning, and developer feedback" width="100%" />
-</p>
+![Abhinav Yadav - focused tools for search, outreach, learning, and developer feedback](assets/profile-banner.svg)
 
 ## What I Build
 
