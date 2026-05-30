@@ -1,0 +1,86 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abhinav Yadav profile banner</title>
+  <desc id="desc">Animated dark banner with moving grid lines and project labels.</desc>
+  <style>
+    .title { font: 700 64px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; fill: #f8fafc; }
+    .subtitle { font: 500 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #cbd5e1; }
+    .label { font: 600 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #e2e8f0; }
+    .muted { font: 500 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #94a3b8; }
+    .node { filter: drop-shadow(0 10px 24px rgba(20, 184, 166, 0.22)); }
+    .pulse { transform-origin: center; animation: pulse 3.8s ease-in-out infinite; }
+    .pulse:nth-of-type(2) { animation-delay: .4s; }
+    .pulse:nth-of-type(3) { animation-delay: .8s; }
+    .pulse:nth-of-type(4) { animation-delay: 1.2s; }
+    .flow { stroke-dasharray: 14 18; animation: dash 16s linear infinite; }
+    .grid { animation: drift 18s ease-in-out infinite alternate; }
+    @keyframes pulse {
+      0%, 100% { opacity: .74; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.035); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -220; }
+    }
+    @keyframes drift {
+      from { transform: translateX(-18px); opacity: .45; }
+      to { transform: translateX(18px); opacity: .8; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="1120" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset=".52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="150" y1="70" x2="1050" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14b8a6"/>
+      <stop offset=".46" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(924 80) rotate(129.3) scale(360 520)">
+      <stop stop-color="#22d3ee" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+  <g class="grid" opacity=".55" stroke="#334155" stroke-width="1">
+    <path d="M0 64H1200"/>
+    <path d="M0 128H1200"/>
+    <path d="M0 192H1200"/>
+    <path d="M0 256H1200"/>
+    <path d="M92 0V360"/>
+    <path d="M196 0V360"/>
+    <path d="M300 0V360"/>
+    <path d="M404 0V360"/>
+    <path d="M508 0V360"/>
+    <path d="M612 0V360"/>
+    <path d="M716 0V360"/>
+    <path d="M820 0V360"/>
+    <path d="M924 0V360"/>
+    <path d="M1028 0V360"/>
+    <path d="M1132 0V360"/>
+  </g>
+  <path class="flow" d="M128 249C286 110 394 91 543 158C690 224 773 272 1048 98" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" opacity=".82"/>
+  <text class="title" x="74" y="126">Abhinav Yadav</text>
+  <text class="subtitle" x="78" y="171">Building focused tools for search, outreach, learning, and developer feedback.</text>
+  <g class="node pulse">
+    <rect x="80" y="232" width="210" height="74" rx="14" fill="#0f172a" stroke="#2dd4bf" stroke-opacity=".9"/>
+    <text class="label" x="104" y="265">Kleos</text>
+    <text class="muted" x="104" y="288">privacy-first outreach</text>
+  </g>
+  <g class="node pulse">
+    <rect x="334" y="232" width="210" height="74" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-opacity=".9"/>
+    <text class="label" x="358" y="265">Ichnos</text>
+    <text class="muted" x="358" y="288">crawler and search</text>
+  </g>
+  <g class="node pulse">
+    <rect x="588" y="232" width="210" height="74" rx="14" fill="#0f172a" stroke="#818cf8" stroke-opacity=".9"/>
+    <text class="label" x="612" y="265">LeetDrill</text>
+    <text class="muted" x="612" y="288">practice tracker</text>
+  </g>
+  <g class="node pulse">
+    <rect x="842" y="232" width="278" height="74" rx="14" fill="#0f172a" stroke="#a78bfa" stroke-opacity=".9"/>
+    <text class="label" x="866" y="265">DevFeedbackAI</text>
+    <text class="muted" x="866" y="288">developer feedback from activity</text>
+  </g>
+</svg>
