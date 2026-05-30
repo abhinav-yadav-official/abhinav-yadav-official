@@ -1,4 +1,4 @@
-![Abhinav Yadav - retro developer terminal](assets/retro-terminal.svg)
+![Abhinav Yadav - retro developer terminal](https://abhiyadav.in/github-profile/retro-terminal.svg)
 
 <h1 align="center">Abhinav Yadav</h1>
 
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=900&lines=Backend+%2B+systems+engineer;I+build+small%2C+focused+tools+that+ship;Search+systems+%E2%80%A2+job+outreach+%E2%80%A2+AI+developer+workflows" alt="Typing animation" />
+  <img src="https://abhiyadav.in/github-profile/typing.svg" alt="Typing animation" />
 </p>
 
 ## Resume Snapshot
@@ -30,7 +30,7 @@ I build production-minded tools with clear user workflows, boring deployment pat
 
 ## Public Projects
 
-![Arcade project strip](assets/project-arcade.svg)
+![Arcade project strip](https://abhiyadav.in/github-profile/project-arcade.svg)
 
 <table>
   <tr>
@@ -78,3 +78,11 @@ I build production-minded tools with clear user workflows, boring deployment pat
   <a href="https://abhiyadav.in/resume"><img src="https://img.shields.io/badge/Resume-PDF-111827?style=for-the-badge&logo=readme&logoColor=facc15" alt="Resume" /></a>
   <a href="https://www.linkedin.com/in/abhiyd"><img src="https://img.shields.io/badge/LinkedIn-Abhinav_Yadav-111827?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn" /></a>
 </p>
+
+## Deploy
+
+Profile images are served from the VPS at `https://abhiyadav.in/github-profile/`.
+
+```sh
+task deploy -- abhiyadav.in
+```

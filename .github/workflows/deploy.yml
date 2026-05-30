@@ -1,0 +1,52 @@
+name: Deploy profile assets
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: profile-assets-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy assets to abhiyadav.in
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DEPLOY_HOST: ${{ vars.DEPLOY_HOST || 'abhiyadav.in' }}
+      DEPLOY_PORT: ${{ vars.DEPLOY_PORT || '2022' }}
+      DEPLOY_USER: ${{ vars.DEPLOY_USER || 'abhinav' }}
+      DOMAIN: abhiyadav.in
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate deploy script
+        run: bash -n scripts/deploy_profile_assets.sh
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          test -n "$DEPLOY_SSH_KEY"
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$DEPLOY_PORT" -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          cat > ~/.ssh/config <<EOF
+          Host profile-assets-deploy
+            HostName $DEPLOY_HOST
+            Port $DEPLOY_PORT
+            User $DEPLOY_USER
+            IdentityFile ~/.ssh/deploy_key
+            IdentitiesOnly yes
+            StrictHostKeyChecking yes
+          EOF
+          chmod 600 ~/.ssh/config
+
+      - name: Deploy profile assets
+        run: bash scripts/deploy_profile_assets.sh profile-assets-deploy

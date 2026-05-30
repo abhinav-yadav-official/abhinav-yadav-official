@@ -1,0 +1,22 @@
+<svg width="900" height="64" viewBox="0 0 900 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated profile typing line</title>
+  <desc id="desc">Animated text cycling through backend systems engineer, focused tools, and AI developer workflows.</desc>
+  <style>
+    text { font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #38bdf8; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+  <rect width="900" height="64" rx="12" fill="#020617" fill-opacity=".01"/>
+  <text x="50%" y="39" text-anchor="middle" opacity="1">Backend + systems engineer
+    <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;.30;.34;.94;1;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="50%" y="39" text-anchor="middle" opacity="0">I build small, focused tools that ship
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.30;.34;.63;.67;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <text x="50%" y="39" text-anchor="middle" opacity="0">Search systems · job outreach · AI developer workflows
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.63;.67;.94;1" dur="9s" repeatCount="indefinite"/>
+  </text>
+  <rect class="cursor" x="820" y="18" width="12" height="30" fill="#38bdf8"/>
+</svg>

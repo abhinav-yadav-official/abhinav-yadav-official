@@ -1,0 +1,19 @@
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - task --list
+
+  test:
+    desc: "Validate profile asset deploy script."
+    cmds:
+      - bash -n scripts/deploy_profile_assets.sh
+      - test -s assets/retro-terminal.svg
+      - test -s assets/project-arcade.svg
+      - test -s assets/typing.svg
+
+  deploy:
+    desc: "Deploy GitHub profile assets to the VPS."
+    cmds:
+      - bash scripts/deploy_profile_assets.sh {{.CLI_ARGS}}
