@@ -6,7 +6,7 @@
   <a href="https://abhiyadav.in"><img src="https://img.shields.io/badge/Portfolio-abhiyadav.in-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=38bdf8" alt="Portfolio" /></a>
   <a href="https://abhiyadav.in/resume"><img src="https://img.shields.io/badge/Resume-PDF-111827?style=for-the-badge&logo=readme&logoColor=facc15" alt="Resume" /></a>
   <a href="https://www.linkedin.com/in/abhiyd"><img src="https://img.shields.io/badge/LinkedIn-Abhinav_Yadav-111827?style=for-the-badge&logo=linkedin&logoColor=60a5fa" alt="LinkedIn" /></a>
-  <a href="https://github.com/abhinav-yadav-official"><img src="https://img.shields.io/badge/GitHub-abhinav--yadav--official-111827?style=for-the-badge&logo=github&logoColor=f8fafc" alt="GitHub" /></a>
+  <a href="https://github.com/almostturingcomplete"><img src="https://img.shields.io/badge/GitHub-abhinav--yadav--official-111827?style=for-the-badge&logo=github&logoColor=f8fafc" alt="GitHub" /></a>
 </p>
 
 <p align="center">
@@ -34,15 +34,15 @@ I build production-minded tools with clear user workflows, boring deployment pat
 
 <table>
   <tr>
-    <td><b>Kleos</b><br />Go, PostgreSQL, SMTP, Docker<br />Privacy-first job outreach from your own email sender.<br /><a href="https://github.com/abhinav-yadav-official/Kleos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
-    <td><b>Ichnos</b><br />Go, Redis, OpenSearch, htmx<br />Domain-specific web crawler and search engine.<br /><a href="https://github.com/abhinav-yadav-official/Ichnos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
+    <td><b>Kleos</b><br />Go, PostgreSQL, SMTP, Docker<br />Privacy-first job outreach from your own email sender.<br /><a href="https://github.com/almostturingcomplete/Kleos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
+    <td><b>Ichnos</b><br />Go, Redis, OpenSearch, htmx<br />Domain-specific web crawler and search engine.<br /><a href="https://github.com/almostturingcomplete/Ichnos">Repo</a> · <a href="https://abhiyadav.in/#projects">Portfolio</a></td>
   </tr>
   <tr>
-    <td><b>LeetDrill</b><br />Self-hosted web app<br />LeetCode practice tracker for drilling consistently.<br /><a href="https://github.com/abhinav-yadav-official/LeetDrill">Repo</a> · <a href="https://abhiyadav.in/leetdrill/">Live</a></td>
-    <td><b>DevFeedbackAI</b><br />Python, git, Phabricator, Claude CLI<br />Quarterly developer feedback from engineering activity.<br /><a href="https://github.com/abhinav-yadav-official/DevFeedbackAI">Repo</a></td>
+    <td><b>LeetDrill</b><br />Self-hosted web app<br />LeetCode practice tracker for drilling consistently.<br /><a href="https://github.com/almostturingcomplete/LeetDrill">Repo</a> · <a href="https://abhiyadav.in/leetdrill/">Live</a></td>
+    <td><b>DevFeedbackAI</b><br />Python, git, Phabricator, Claude CLI<br />Quarterly developer feedback from engineering activity.<br /><a href="https://github.com/almostturingcomplete/DevFeedbackAI">Repo</a></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Portifolio</b><br />HTML, CSS, JavaScript, Three.js<br />Animated personal site and resume hub.<br /><a href="https://github.com/abhinav-yadav-official/Portifolio">Repo</a> · <a href="https://abhiyadav.in/">Live</a></td>
+    <td colspan="2"><b>Portifolio</b><br />HTML, CSS, JavaScript, Three.js<br />Animated personal site and resume hub.<br /><a href="https://github.com/almostturingcomplete/Portifolio">Repo</a> · <a href="https://abhiyadav.in/">Live</a></td>
   </tr>
 </table>
 
